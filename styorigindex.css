@@ -1,0 +1,594 @@
+.main {
+    width: 27cm;
+    height: 22cm;
+    box-shadow: 0.1px 1px 0.1px 1px #888888;
+}
+
+.nav_main {
+    width: 9cm;
+    margin-left: 1cm;
+    height: 11cm;
+    box-shadow: 0.1px 1px 0.1px 1px #888888;
+    text-align: center;
+}
+
+.nav2_main {
+    width: 9cm;
+    margin-left: 1cm;
+    box-shadow: 0.1px 1px 0.1px 1px #888888;
+    text-align: center;
+    height: 7.3cm;
+}
+
+.nav3_main {
+    width: 9cm;
+    margin-left: 1cm;
+    box-shadow: 0.1px 1px 0.1px 1px #888888;
+    text-align: center;
+    height: 7.5cm;
+}
+
+.main_center2 {
+
+    height: 50cm;
+    box-shadow: 0.1px 1px 0.1px 1px #888888;
+    margin: -0.6cm !important;
+    margin-top: 37px !important;
+}
+
+
+
+
+
+
+
+
+
+.div_main {
+    display: flex;
+    margin-left: 3cm !important;
+    margin-top: 2.8cm !important;
+    justify-content: space-between;
+
+
+}
+
+.b_or {
+    background-color: #e5e4e28e !important;
+}
+
+
+.color_foldr {
+    color: #000000b0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;500&display=swap');
+
+div .main,
+.main_center,
+.main_center2 h4 {
+
+    font-family: 'Bona Nova', serif !important;
+
+}
+
+#CONTACTER {
+    font-family: 'Bona Nova', serif !important;
+    color: white !important;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 165, 165) !important;
+    background-color: #a881af;
+
+
+}
+
+.div_img_toutex p {
+
+    font-family: 'Bona Nova', serif !important;
+
+}
+
+
+.link_
+:hover {
+    color: black !important;
+
+}
+
+.h1_main_canter {
+    font-size: 50px;
+}
+
+.main_center {
+    font-size: 25px !important;
+    opacity: 0.9;
+}
+
+.main_center .a_main:hover {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+.div_img_toutex a:hover {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+#CONTACTER:hover {
+    background-color: #80669d !important;
+    color: black !important;
+
+}
+
+.fac_inst_twitt_yout {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+
+.f_plac::-webkit-input-placeholder {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    font-family: 'Bona Nova', serif !important;
+
+
+}
+
+.f_plac2::-webkit-input-placeholder {
+    font-size: 15px !important;
+    font-family: 'Bona Nova', serif !important;
+
+}
+
+.f_plac3::-webkit-input-placeholder {
+    font-size: 15px !important;
+    font-family: 'Bona Nova', serif !important;
+}
+
+.f_plac4::-webkit-input-placeholder {
+    font-size: 15px !important;
+    font-family: 'Bona Nova', serif !important;
+}
+
+.f_plac {
+    border: 3px solid #888888a2;
+}
+
+.f_plac2,
+.f_plac3,
+.f_plac4 {
+    border: 3px solid #888888a2;
+}
+
+#btn_commentaire {
+    border: 1px solid;
+    border-radius: 2.5px !important;
+    width: 50% !important;
+    height: 1.5cm !important;
+    color: white;
+    font-family: 'Bona Nova', serif !important;
+    font-size: 20px;
+}
+
+#btn_commentaire:hover {
+    background-color: black !important;
+}
+
+.p_final {
+    font-size: 17px;
+
+    opacity: 0.7;
+}
+
+#footer_final {
+    background-color: rgba(0, 0, 0, 0.781) !important;
+    margin-top: 72.3cm !important;
+    height: 4cm;
+    color: white;
+    font-family: 'Bona Nova', serif !important;
+    align-items: center !important;
+    text-align: center !important;
+
+
+}
+
+.im_final {
+    background-color: rgba(30, 255, 255, 0.63) !important;
+
+}
+
+.im_final:hover {
+    background-color: blue !important;
+}
+
+
+.link_Développement div:hover {
+    color: chartreuse !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+    .main {
+        display: block !important;
+        height: 23cm;
+
+
+    }
+
+
+    .div_main {
+
+        height: 30cm !important;
+    }
+
+    .div_janb_ofppt_ly {
+        display: none !important;
+    }
+
+    .div_main {
+        width: 20cm !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .main {
+        height: 24.5cm;
+
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .div_main {
+        height: 32cm !important;
+    }
+
+    .main {
+        height: 27.5cm;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .div_main {
+        height: 33.5cm !important;
+    }
+
+    #footer_final {
+        width: 20cm !important;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 623px) {
+    #footer_final {
+        width: 23cm !important;
+    }
+}
+
+@media only screen and (max-width: 481px) and (max-width:480px) {
+    .div_main {
+        height: 35cm !important;
+    }
+
+    .main {
+        height: 30cm;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 445px) {
+    .div_main {
+        height: 36cm !important;
+    }
+}
+
+
+@media only screen and (max-width: 424px) {
+    .div_main {
+        height: 39cm !important;
+    }
+
+    .main {
+        height: 32cm;
+
+
+    }
+
+}
+@media only screen and (max-width: 1064px){
+
+    .div_main {
+        width: 16.5cm !important;
+    }
+    .main {
+
+        height: 25cm;
+
+
+    }
+
+}
+@media only screen and (max-width: 812px){
+    .div_main {
+        width: 15.5cm !important;
+    }
+   
+}
+@media only screen and (max-width: 767px){
+    .main {
+
+        height: 27.5cm;
+
+
+    }
+}
+@media only screen and (max-width: 751px){
+    .div_main {
+        width: 13cm !important;
+    }
+    .main {
+
+        height: 28.5cm !important;
+
+
+    }
+   
+}
+@media only screen and (max-width:642px){
+    .div_main {
+        width: 12cm !important;
+    }
+    .main {
+
+        height: 30cm !important;
+
+
+    }
+}
+
+
+.btn_video {
+    background: #0a6829;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    
+  }
+  .front1 {
+    display: block;
+    padding: 4px 20px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background:  #06c25a;
+    color: red;
+    transform: translateY(-6px);
+    height: 0.9cm;
+  }
+
+  .btn_video:active .front1 {
+    transform: translateY(-2px);
+  }
+  .btn_video:hover .front1{
+    transform: translateY(-2px);
+  }
+
+
+  .btn_conver {
+    background: #052057e7;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    
+  }
+  .front2 {
+    display: block;
+    padding: 6px 20px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: #4681f4;
+    color: black;
+    transform: translateY(-6px);
+    height: 0.9cm;
+  }
+
+  .btn_conver:active .front2 {
+    transform: translateY(-2px);
+  }
+  .btn_conver:hover .front2{
+    transform: translateY(-2px);
+  }
+
+
+  .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  margin-top: 100px;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
