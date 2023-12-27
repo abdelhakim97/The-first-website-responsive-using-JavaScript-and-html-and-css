@@ -1,0 +1,413 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#link-nav:hover {
+    background-color: rgba(200, 223, 223, 0.792);
+}
+
+
+
+.ib::placeholder {
+    color: rgb(54, 209, 220) !important;
+    opacity: 1 !important;
+}
+
+.ib {
+    height: 0.8cm !important;
+    width: 5cm !important;
+}
+
+.c2 h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.c2 p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+
+.d_borderr2 {
+
+    align-items: center;
+    background: white !important;
+    border-radius: 4px !important;
+
+    box-shadow: 6px black !important;
+    box-shadow: 2px 2px 2px 2px #a4a4a4 !important;
+
+}
+
+body {
+    background: white !important;
+}
+
+nav {
+    box-shadow: 4px 4px 4px #3431316f;
+}
+
+.span1 {
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+}
+
+.span2 {
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+}
+.a_services{
+  
+    color: black !important;
+    font-weight: bolder !important;
+}
+
+
+
+
+
+
+.Language {
+
+    display: inline;
+    position: relative;
+    /* color: #0087ca;*/
+}
+
+.Language::after {
+
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Language:hover::after {
+
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.services_nav {
+
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+
+.services_nav::after {
+
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.services_nav:hover::after {
+
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+.Theme {
+
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+
+.Theme::after {
+
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.Theme:hover::after {
+
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+    .d_borderr2 {
+        height: 7.5cm !important;
+
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .d_borderr2 {
+        height: 9cm !important;
+
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .d_borderr2 {
+        height: 13cm !important;
+    }
+
+    .lab-from {
+        display: block;
+    }
+
+    .dropbtn,
+    .dropbtn2 {
+        width: 100% !important;
+    }
+
+    .im {
+        rotate: 90deg !important;
+    }
+
+    .button {
+        width: 100% !important;
+
+    }
+
+    .div_borde {
+        width: 100% !important;
+        position: static !important;
+        margin-top: 1cm !important;
+    }
+
+
+
+
+
+    .id1,
+    .id2,
+    .id3 {
+        display: block !important;
+        width: 6cm !important;
+
+    }
+
+    .iup1,
+    .iup2,
+    .iup3 {
+        display: block !important;
+        width: 100% !important;
+
+    }
+
+
+
+
+
+}
+
+.div-exclamation {
+    font-size: 11.5px;
+    background-color: #ece4e4bc;
+    width: 11cm;
+    border-radius: 6px !important;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 575px) {
+    .div-exclamation {
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .div-exclamation {
+        width: 100%;
+
+    }
+}
+
+.iup1,
+.iup2,
+.iup3 {
+    width: 6cm !important;
+
+}
+
+@media only screen and (max-width: 1199px) {
+    #id1 {
+        display: block !important;
+        width: 100% !important;
+
+    }
+
+    #id2 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    #id3 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .iup1,
+    .iup2,
+    .iup3 {
+        width: 100% !important;
+
+    }
+}
+
+.c2 {
+    background-image: url(../img/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    height: 9.2cm !important;
+}
+
+.c3 {
+    background-image: url(../img/wallpaperbetter.com_2560x1440.jpg);
+    height: 14cm !important;
+    box-shadow: 2px 2px 2px 2px #00000060 !important;
+
+}
+
+@media only screen and (max-width:381px) {
+    .h-f {
+        padding-top: 1cm;
+    }
+
+    .c2 {
+        height: 15cm !important;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    #demo {
+        float: left !important;
+
+    }
+
+    .d_borderr2 {
+        height: 16cm !important;
+    }
+}
+
+.div_borde {
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #0dcaf0 !important;
+    width: 6cm;
+    height: 1.3cm;
+    position: relative;
+    left: 4cm;
+    padding-bottom: 0.7cm;
+}
+
+@media only screen and (max-width:1400px) {
+    .div-exclamation {
+        margin-top: 1.5cm;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .div-exclamation {
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .d_borderr2 {
+        height: 14.5cm !important;
+
+    }
+}
